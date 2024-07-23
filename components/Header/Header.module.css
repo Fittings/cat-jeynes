@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  background-color: red;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: var(--spacing-600) var(--spacing-500);
+}
+
+.titleGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  background-color: orange;
+}
+
+.subTitle {
+  background-color: paleturquoise;
+}

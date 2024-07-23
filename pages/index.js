@@ -1,23 +1,30 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import Head from "next/head";
+import Header from "@components/Header/Header";
+import Footer from "@components/Footer/Footer";
+
+import styles from "./index.module.css";
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className={styles.root}>
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Catherine Jeynes Photography</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+          rel="stylesheet"
+        ></link>
       </Head>
 
-      <main>
-        <Header title="Welcome to my app!" />
+      <Header />
+      <main className={styles.main}>
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
       </main>
-
       <Footer />
     </div>
-  )
+  );
 }
