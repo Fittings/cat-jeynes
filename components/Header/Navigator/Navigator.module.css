@@ -1,0 +1,19 @@
+.navigator {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: var(--spacing-300);
+  row-gap: var(--spacing-100);
+  align-items: center;
+  justify-content: center;
+}
+
+.navLink {
+  all: unset;
+
+  color: var(--c-off-green);
+  cursor: pointer;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}

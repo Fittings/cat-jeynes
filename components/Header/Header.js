@@ -1,4 +1,5 @@
 import styles from "./Header.module.css";
+import Navigator from "./Navigator/Navigator";
 
 const Header = () => {
   return (
@@ -7,12 +8,7 @@ const Header = () => {
         <h1 className={styles.title}>Catherine Jeynes</h1>
         <span className={styles.subtitle}>Photography</span>
       </div>
-      <nav className="navigator">
-        <a href="#">EXAMPLE</a>
-        <a href="#">EXAMPLE</a>
-        <a href="#">EXAMPLE</a>
-        <a href="#">EXAMPLE</a>
-      </nav>
+      <Navigator />
     </div>
   );
 };

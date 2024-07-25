@@ -1,4 +1,5 @@
 :root {
+  /* Spacing */
   --spacing-10: 1px;
   --spacing-25: 2px;
   --spacing-50: 4px;
@@ -13,16 +14,42 @@
   --spacing-700: 56px;
   --spacing-800: 64px;
   --spacing-900: 72px;
+
+  /* Colours */
+  --c-white: #fff;
+  --c-bone: #f7f6f6;
+  --c-off-white: #f4efef;
+  --c-hue-white: #e6e1e0;
+  --c-wild-sand: #eadecd;
+  --c-hue-green: #434939;
+  --c-off-green: #666a5d;
 }
 
+/* Fonts */
+.primary-header {
+  font-size: 56px;
+  font-weight: 500;
+}
+.secondary-header {
+  font-size: 42px;
+  font-weight: 600;
+}
+.tertiary-header {
+  font-size: 24px;
+  font-weight: 300;
+}
+.primary-paragraph {
+  font-size: 14px;
+  font-weight: 400;
+}
 
 html,
 body {
   background-color: #f8fafc;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 * {

@@ -1,22 +1,39 @@
 .header {
   display: flex;
-  background-color: red;
+  flex-wrap: wrap;
+  column-gap: var(--spacing-300);
+  row-gap: var(--spacing-400);
   justify-content: space-between;
   align-items: center;
 
   padding: var(--spacing-600) var(--spacing-500);
+}
+.header > * {
+  flex: 1 1 0;
 }
 
 .titleGroup {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  row-gap: var(--spacing-150);
 }
 
 .title {
-  background-color: orange;
+  font-family: "Inria Serif";
+  text-align: center;
+  font-size: 56px;
+  line-height: 50px;
+  font-weight: 300;
+  color: var(--c-hue-green);
+  margin: 0;
 }
 
-.subTitle {
-  background-color: paleturquoise;
+.subtitle {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 4px;
+  color: var(--c-hue-green);
+  text-transform: uppercase;
 }
