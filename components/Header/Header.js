@@ -4,10 +4,10 @@ import Navigator from "./Navigator/Navigator";
 const Header = () => {
   return (
     <div className={styles.header}>
-      <div className={styles.titleGroup}>
+      <a className={styles.titleGroup} href="/">
         <h1 className={styles.title}>Catherine Jeynes</h1>
         <span className={styles.subtitle}>Photography</span>
-      </div>
+      </a>
       <Navigator />
     </div>
   );
