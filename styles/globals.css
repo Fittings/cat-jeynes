@@ -25,6 +25,14 @@
   --c-off-green: #666a5d;
 }
 
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 h1,
 h2,
 h3,

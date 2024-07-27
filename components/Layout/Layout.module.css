@@ -6,3 +6,8 @@
   width: 100svw;
   height: 100svh;
 }
+
+.main {
+  padding: var(--spacing-100);
+  padding-bottom: var(--spacing-800);
+}
