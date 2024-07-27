@@ -1,0 +1,49 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--spacing-300);
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--spacing-100);
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--spacing-200);
+
+    .row {
+      display: flex;
+      gap: var(--spacing-100);
+
+      > * {
+        flex: 1 1 0;
+      }
+    }
+
+    .formItem {
+      display: flex;
+      flex-direction: column;
+      row-gap: var(--spacing-50);
+
+      input {
+        padding: var(--spacing-150) var(--spacing-200);
+      }
+
+      select {
+        padding: var(--spacing-150) var(--spacing-200);
+      }
+    }
+
+    button {
+      margin-top: var(--spacing-200);
+
+      width: 100%;
+      border: unset;
+      padding: var(--spacing-150) var(--spacing-200);
+      border-radius: 4px;
+    }
+  }
+}

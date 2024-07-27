@@ -25,6 +25,13 @@
   --c-off-green: #666a5d;
 }
 
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
 /* Fonts */
 .primary-header {
   font-size: 56px;
