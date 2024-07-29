@@ -1,0 +1,47 @@
+.header {
+  margin: 0 auto;
+  width: 100%;
+  max-width: var(--max-width);
+
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: var(--spacing-300);
+  row-gap: var(--spacing-400);
+  justify-content: space-between;
+  align-items: center;
+
+  padding: var(--spacing-600) 0;
+
+  > * {
+    flex: 0 1 auto;
+  }
+
+  .titleGroup {
+    all: unset;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: var(--spacing-150);
+
+    .title {
+      font-family: "Inria Serif";
+      text-align: center;
+      font-size: 56px;
+      line-height: 50px;
+      font-weight: 300;
+      color: var(--c-hue-green);
+      margin: 0;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      font-weight: 300;
+      letter-spacing: 4px;
+      color: var(--c-hue-green);
+      text-transform: uppercase;
+    }
+  }
+}

@@ -1,4 +1,4 @@
-import styles from "./Header.module.css";
+import styles from "./styles.module.scss";
 import Navigator from "./Navigator";
 
 const Header = () => {

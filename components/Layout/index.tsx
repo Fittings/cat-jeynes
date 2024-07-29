@@ -3,7 +3,7 @@ import Head from "next/head";
 import Header from "@components/Layout/Header";
 import Footer from "@components/Layout/Footer";
 
-import styles from "./Layout.module.css";
+import styles from "./styles.module.scss";
 
 const Layout = ({ children }) => {
   return (
@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
         <title>Catherine Jeynes Photography</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
           rel="stylesheet"
