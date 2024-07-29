@@ -1,5 +1,5 @@
 import styles from "./Header.module.css";
-import Navigator from "./Navigator/Navigator";
+import Navigator from "./Navigator";
 
 const Header = () => {
   return (

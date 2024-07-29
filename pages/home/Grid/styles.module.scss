@@ -1,0 +1,10 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  grid-gap: var(--spacing-100);
+
+  @media (max-width: var(--mobile-max-width)) {
+    grid-template-columns: 1fr;
+  }
+}

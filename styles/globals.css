@@ -15,6 +15,10 @@
   --spacing-800: 64px;
   --spacing-900: 72px;
 
+  /* Global Page Spacing */
+  --max-width: 1080px;
+  --mobile-max-width: 500px;
+
   /* Colours */
   --c-white: #fff;
   --c-bone: #f7f6f6;
