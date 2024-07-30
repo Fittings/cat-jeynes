@@ -6,8 +6,9 @@
 
   .hero {
     img {
-      width: 100%;
-      min-height: 50svh;
+      width: 100svw;
+
+      min-height: 80svh;
       max-height: 100svh;
       object-fit: cover;
     }
