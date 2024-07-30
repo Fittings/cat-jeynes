@@ -18,25 +18,30 @@ const Image = ({ ...rest }) => {
 
 const Home = () => {
   return (
-    <div className={styles.home}>
-      <Grid>
-        <Image src="/images/happy-kiss.jpg" />
-        <Image src="/images/natural-and-candid.jpg" />
-        <Image src="/images/pumpkin-baby.jpg" />
-        <Image src="/images/the-joe-one.jpg" />
-        <Image src="/images/happy-kiss.jpg" />
-        <Image src="/images/natural-and-candid.jpg" />
-        <Image src="/images/pumpkin-baby.jpg" />
-        <Image src="/images/the-joe-one.jpg" />{" "}
-        <Image src="/images/happy-kiss.jpg" />
-        <Image src="/images/natural-and-candid.jpg" />
-        <Image src="/images/pumpkin-baby.jpg" />
-        <Image src="/images/the-joe-one.jpg" />{" "}
-        <Image src="/images/happy-kiss.jpg" />
-        <Image src="/images/natural-and-candid.jpg" />
-        <Image src="/images/pumpkin-baby.jpg" />
-        <Image src="/images/the-joe-one.jpg" />
-      </Grid>
+    <div className={styles.homeRoot}>
+      <div className={styles.hero}>
+        <img src="/images/mountains.jpg" />
+      </div>
+      <div className={styles.home}>
+        <Grid>
+          <Image src="/images/happy-kiss.jpg" />
+          <Image src="/images/natural-and-candid.jpg" />
+          <Image src="/images/pumpkin-baby.jpg" />
+          <Image src="/images/the-joe-one.jpg" />
+          <Image src="/images/happy-kiss.jpg" />
+          <Image src="/images/natural-and-candid.jpg" />
+          <Image src="/images/pumpkin-baby.jpg" />
+          <Image src="/images/the-joe-one.jpg" />{" "}
+          <Image src="/images/happy-kiss.jpg" />
+          <Image src="/images/natural-and-candid.jpg" />
+          <Image src="/images/pumpkin-baby.jpg" />
+          <Image src="/images/the-joe-one.jpg" />{" "}
+          <Image src="/images/happy-kiss.jpg" />
+          <Image src="/images/natural-and-candid.jpg" />
+          <Image src="/images/pumpkin-baby.jpg" />
+          <Image src="/images/the-joe-one.jpg" />
+        </Grid>
+      </div>
     </div>
   );
 };

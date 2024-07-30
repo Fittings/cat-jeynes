@@ -1,5 +1,19 @@
-.home {
-  max-width: var(--max-width);
+.homeRoot {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  row-gap: var(--spacing-900);
+
+  .hero {
+    img {
+      width: 100%;
+      min-height: 50svh;
+      max-height: 100svh;
+      object-fit: cover;
+    }
+  }
+
+  .home {
+    max-width: var(--max-width);
+  }
 }
