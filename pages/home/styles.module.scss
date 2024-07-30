@@ -1,8 +1,8 @@
-.homeRoot {
+.home {
   display: flex;
   flex-direction: column;
   align-items: center;
-  row-gap: var(--spacing-900);
+  row-gap: var(--spacing-1000);
 
   .hero {
     img {
@@ -13,7 +13,15 @@
     }
   }
 
-  .home {
+  .showGrid {
     max-width: var(--max-width);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: var(--spacing-1000);
+
+    > h2 {
+      font-family: "Petemoss", cursive;
+    }
   }
 }

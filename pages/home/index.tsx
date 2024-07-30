@@ -18,11 +18,20 @@ const Image = ({ ...rest }) => {
 
 const Home = () => {
   return (
-    <div className={styles.homeRoot}>
+    <div className={styles.home}>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Petemoss&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <div className={styles.hero}>
         <img src="/images/mountains.jpg" />
       </div>
-      <div className={styles.home}>
+      <section className={styles.showGrid}>
+        <h2 className="primary-header">Some of my recent work...</h2>
         <Grid>
           <Image src="/images/happy-kiss.jpg" />
           <Image src="/images/natural-and-candid.jpg" />
@@ -41,7 +50,7 @@ const Home = () => {
           <Image src="/images/pumpkin-baby.jpg" />
           <Image src="/images/the-joe-one.jpg" />
         </Grid>
-      </div>
+      </section>
     </div>
   );
 };
