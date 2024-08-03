@@ -73,6 +73,11 @@ const Contact = () => {
           </FormItem>
         </Row>
         <Row>
+          <FormItem label="Details">
+            <textarea type="text" name="description" />
+          </FormItem>
+        </Row>
+        <Row>
           <button type="submit">Send</button>
         </Row>
       </form>

@@ -32,7 +32,7 @@
       flex-direction: column;
       row-gap: var(--spacing-50);
 
-      input {
+      input, textarea {
         padding: var(--spacing-150) var(--spacing-200);
       }
 
