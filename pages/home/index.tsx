@@ -1,21 +1,10 @@
-import React, { HTMLProps } from "react";
+import React, { HTMLProps, useState } from "react";
 import Grid from "./Grid";
+import Image from '@components/Image'
 import styles from "./styles.module.scss";
 import Head from "next/head";
+import { Lightbox } from "react-modal-image";
 
-const Image = ({ ...rest }) => {
-  return (
-    <img
-      style={{
-        objectFit: "cover",
-        width: "100%",
-        aspectRatio: "16/24",
-        background: "var(--c-wild-sand",
-      }}
-      {...rest}
-    />
-  );
-};
 
 const Home = () => {
   return (
